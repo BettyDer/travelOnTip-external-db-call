@@ -1,0 +1,37 @@
+{
+  "configs": [
+    "global/global-config.xml",
+    "travelontip-external-db-call.xml",
+    "Implementation/travelOnTip-get-routes.xml",
+    "Implementation/travelOnTip-get-schedules.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:travelontip-external-db-call:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "application-types.xml",
+        "config/dev.yaml",
+        "config/local.yaml",
+        "config/ppe.yaml",
+        "config/prod.yaml",
+        "config/sit.yaml",
+        "config/uat.yaml",
+        "global/global-config.xml",
+        "Implementation/travelOnTip-get-routes.xml",
+        "Implementation/travelOnTip-get-schedules.xml",
+        "log4j2.xml",
+        "travelontip-external-db-call.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
